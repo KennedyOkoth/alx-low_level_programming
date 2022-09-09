@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: always return 0
+ * Return:always return 0
+ *
  */
 int main(void)
 {
@@ -16,10 +17,11 @@ int main(void)
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
-	}else if (n == 0)
-		printf("%d is zero\n", n); 
-	}else
-        {
+	} else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	} else
+	{
 		printf("%d is positive\n", n);
 	}
 	return (0);
