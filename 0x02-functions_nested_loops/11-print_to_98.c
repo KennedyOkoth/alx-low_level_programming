@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+*print_to_98 - prints natural
+*numbers from n to 98
+*@n:integer to start by
+*return: returns nothing
+*/
 
 void print_to_98(int n)
 {
