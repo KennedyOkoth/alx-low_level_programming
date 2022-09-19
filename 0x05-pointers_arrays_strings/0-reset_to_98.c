@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - programm entry point
+ * reset_to_98 - reset integer value to 98
  *
- * Return: Always 0
+ * @n: Targeted value
  */
 
 void reset_to_98(int *n)
