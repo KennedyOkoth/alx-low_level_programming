@@ -1,20 +1,21 @@
 #include "main.h"
-#include "2-strlen.c"
 /**
- * _strcpy - main function to copy
+ * _strcpy - Copiar el contenido de uno a otra variable
+ * @dest: This is destiny
+ * @src: This is the copia
  *
- * @dest: destination to copy
- * @src: src
- *
- * Return: a character value
+ * Return: This return copy
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	char *start = dest;
 
-	for (i = 0; i <= _strlen(src); i++)
+	while (*src != '\0')
 	{
-		dest[i] = src[i];
+		*dest = *src;
+		dest++;
+		src++;
 	}
-	return (dest);
+	*dest = '\0';
+	return (start);
 }
