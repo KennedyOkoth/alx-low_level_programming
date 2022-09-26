@@ -1,0 +1,1 @@
+0-memset.c: Function that fills memory with a constant byte.FYI The standard library provides a similar function memset. Run man memset to learn more.1-memcpy.c: Function that copies memory area.FYI The standard library provides a similar function memcpy. Run man memcpy to learn more.
