@@ -1,1 +1,5 @@
 0-memset.c: Function that fills memory with a constant byte.FYI The standard library provides a similar function memset. Run man memset to learn more.1-memcpy.c: Function that copies memory area.FYI The standard library provides a similar function memcpy. Run man memcpy to learn more.
+2-strchr.c: Writing a function that locates a character in a string. Prototype: char *_strchr(char *s, char c); Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found.
+3-strspn.c: Writing a function that gets the length of a prefix substring. Prototype: unsigned int _strspn(char *s, char *accept); Returns the number of bytes in the initial segment of s which consist only of bytes from accept.
+
+4-strpbrk.c: Writing a function that searches a string for any of a set of bytes. Prototype: char *_strpbrk(char *s, char *accept); The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept. Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found.
