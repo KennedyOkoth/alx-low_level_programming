@@ -1,6 +1,6 @@
-#0x0E. C - Structures, typedef
+# 0x0E. C - Structures, typedef
 
-##Resources.
+## Resources.
 
   **Read or watch.**
 
@@ -18,7 +18,7 @@
 
  - [The Lost Art of C Structure Packing(*Advanced - not mandatory*)](http://www.catb.org/esr/structure-packing/)
 
-###Learning Objectives.
+### Learning Objectives.
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -27,14 +27,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
    - What are structures, when, why and how to use them
    - How to use typedef
 
-####Copyright - Plagiarism
+#### Copyright - Plagiarism
 
     - You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
     - You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
     - You are not allowed to publish any content of this project.
     - Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-#####Requirements
+##### Requirements
 
  **General**
 
@@ -51,7 +51,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
     - All your header files should be include guarded
 
 
-######Tasks.
+###### Tasks.
 
 0. Poppy.
 Define a new type struct dog with the following elements:
