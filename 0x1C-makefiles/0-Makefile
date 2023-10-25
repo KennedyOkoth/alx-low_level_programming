@@ -1,3 +1,6 @@
 # -*- MakeFile -*- 
 
-school: school.o m.o
+all: school
+
+school: m.h main.c school.c
+    gcc -o school m.h main.c school.c
